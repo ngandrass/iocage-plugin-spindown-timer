@@ -1,0 +1,3 @@
+[submodule "overlay/opt/truenas-spindown-timer"]
+	path = overlay/opt/truenas-spindown-timer
+	url = https://github.com/ngandrass/truenas-spindown-timer.git
