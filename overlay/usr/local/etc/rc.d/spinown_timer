@@ -1,0 +1,14 @@
+#!/bin/sh
+
+. /etc/rc.subr
+
+name=spindown_timer
+rcvar=spindown_timer_enable
+
+command="/opt/truenas-spindown-timer/${name}.sh"
+command_args="--help" 
+
+pidfile="/var/run/${name}.pid" 
+
+load_rc_config $name
+run_rc_command "$1"
