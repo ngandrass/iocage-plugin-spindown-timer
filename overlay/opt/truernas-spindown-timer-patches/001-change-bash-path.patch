@@ -1,0 +1,10 @@
+diff --git a/spindown_timer.sh b/spindown_timer.sh
+index 85cfda7..e7ac100 100755
+--- a/spindown_timer.sh
++++ b/spindown_timer.sh
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env bash
++#!/usr/local/bin/bash
+ 
+ # ##################################################
+ # TrueNAS HDD Spindown Timer
