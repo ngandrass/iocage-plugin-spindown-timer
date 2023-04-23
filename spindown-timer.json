@@ -19,6 +19,7 @@
         "securelevel": 0
     },
     "pkgs": [
+        "bash",
         "git"
     ],
     "artifact": "https://github.com/ngandrass/iocage-plugin-spindown-timer.git"
