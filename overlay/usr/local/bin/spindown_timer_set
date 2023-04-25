@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set_args() {
+    sed -i "s|command_args=\".*\"|command_args=\"$2\"|" /usr/local/etc/rc.d/spindown_timer
+	exit 0
+}
+
+case $1 in
+	args) set_args "$2" ;;
+	*) echo "Unknown option" ;;
+esac

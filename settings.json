@@ -1,11 +1,14 @@
 {
-	"servicerestart":"service spindown_timer restart",
-	"options": {
-		"args": {
-			"type": "string",
-			"name": "Command line arguments",
-			"description": "String of command line arguments passed to the spindown timer script. See Usage section within the README for help.",
-			"readonly": false
-		},
-	}
+    "servicerestart":"service spindown_timer restart",
+    "serviceget": "/usr/local/bin/spindown_timer_get",
+    "serviceset": "/usr/local/bin/spindown_timer_set",
+    "options": {
+        "args": {
+            "type": "string",
+            "name": "Command line arguments",
+            "description": "String of command line arguments passed to the spindown timer script. See Usage section within the README for help.",
+            "readonly": false,
+            "requirerestart": true
+        }
+    }
 }

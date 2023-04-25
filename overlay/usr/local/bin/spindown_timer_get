@@ -1,0 +1,10 @@
+#!/bin/sh
+
+get_args() {
+    grep "^command_args=" /usr/local/etc/rc.d/spindown_timer | cut -d '=' -f2 | tr -d '"'
+}
+
+case $1 in
+	args) get_args ;;	
+	*) echo "Unknown option" ;;
+esac
