@@ -1,6 +1,6 @@
 {
-    "name": "spindown-timer",
     "plugin_schema": "2",
+    "name": "spindown-timer",
     "revision": 0,
     "release": "13.1-RELEASE",
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",

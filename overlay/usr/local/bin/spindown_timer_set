@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set_args() {
-    sed -i 's|command_args=".*"|command_args="'"$2"'"|' /usr/local/etc/rc.d/spindown_timer
+    sed -i '' 's|command_args=".*"|command_args="'"$1"'"|' /usr/local/etc/rc.d/spindown_timer
 	exit 0
 }
 
